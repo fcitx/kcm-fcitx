@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2017-09-03 14:18+0000\n"
+"PO-Revision-Date: 2017-10-02 20:59+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -219,7 +219,7 @@ msgstr "Kopiering mislykkedes"
 #: src/uipage.cpp:16
 #, kde-format
 msgid "Cannot load currently used user interface info"
-msgstr "Kan ikke indlæse nuværende brugte brugerfladeinfo"
+msgstr "Kan ikke indlæse information om brugergrænseflade som bruges i øjeblikket"
 
 #: src/uipage.cpp:45
 #, kde-format
