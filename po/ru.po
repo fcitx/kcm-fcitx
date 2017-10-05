@@ -4,14 +4,14 @@
 # 
 # Translators:
 # TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016
-# TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016
+# TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2017-06-09 17:50+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"PO-Revision-Date: 2017-10-05 14:02+0000\n"
+"Last-Translator: TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/fcitx/fcitx/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,32 +27,32 @@ msgstr "Основной просмотрщик раскладки клавиа�
 #: layout/main.cpp:41
 #, kde-format
 msgid "Keyboard layout <group> (0-3)"
-msgstr ""
+msgstr "Раскладка клавиатуры <group> (0-3)"
 
 #: layout/main.cpp:42
 #, kde-format
 msgid "group"
-msgstr ""
+msgstr "группа"
 
 #: layout/main.cpp:44
 #, kde-format
 msgid "Keyboard <layout>"
-msgstr ""
+msgstr "Клавиатура <layout>"
 
 #: layout/main.cpp:45
 #, kde-format
 msgid "layout"
-msgstr ""
+msgstr "раскладка"
 
 #: layout/main.cpp:47
 #, kde-format
 msgid "Keyboard layout <variant>"
-msgstr ""
+msgstr "Раскладка клавиатуры <variant>"
 
 #: layout/main.cpp:48
 #, kde-format
 msgid "variant"
-msgstr ""
+msgstr "вариант"
 
 #: layout/main.cpp:74
 #, kde-format
@@ -118,7 +118,7 @@ msgstr "Многоязычный"
 #, kde-format
 msgctxt "%1 is language name, %2 is country name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: src/impage.cpp:481
 #, kde-format
@@ -148,7 +148,7 @@ msgstr "Xuetian Weng"
 #: src/module.cpp:91
 #, kde-format
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: src/module.cpp:104 src/kcm_fcitx.desktop.in:11
 #, kde-format
