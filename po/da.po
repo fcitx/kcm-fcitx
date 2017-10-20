@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2017-10-02 20:59+0000\n"
+"PO-Revision-Date: 2017-10-19 23:38+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "Andre"
 #: src/erroroverlay.cpp:43
 #, kde-format
 msgid "Cannot connect to Fcitx by DBus, is Fcitx running?"
-msgstr "Kan ikke oprette forbindelse til Fcitx med DBus. Kører Fcitx?"
+msgstr "Kan ikke oprette forbindelse til Fcitx med DBus - kører Fcitx?"
 
 #: src/imconfigdialog.cpp:42
 #, kde-format
@@ -194,7 +194,7 @@ msgstr "Skin %1 kan ikke indlæses"
 msgid ""
 "User config doesn't exisits, do you want to open system file or copy system "
 "file to user file?"
-msgstr "Brugerkonfigurationen findes ikke. Vil du åbne systemfilen eller kopiere systemfilen til brugerfilen?"
+msgstr "Brugerkonfigurationen findes ikke - vil du åbne systemfilen eller kopiere systemfilen til brugerfilen?"
 
 #: src/subconfigwidget.cpp:231
 #, kde-format
@@ -204,7 +204,7 @@ msgstr "Skal gøres"
 #: src/subconfigwidget.cpp:232
 #, kde-format
 msgid "Copy"
-msgstr "Kopi"
+msgstr "Kopiér"
 
 #: src/subconfigwidget.cpp:233
 #, kde-format
