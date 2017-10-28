@@ -5,15 +5,16 @@
 # Translators:
 # しろう <>, 2013
 # csslayer <wengxt@gmail.com>, 2014
+# あわしろいくや <ikunya@gmail.com>, 2017
 # csslayer <wengxt@gmail.com>, 2014
 # csslayer <wengxt@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-06-09 11:02-0700\n"
-"PO-Revision-Date: 2017-06-09 17:50+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>\n"
+"POT-Creation-Date: 2017-10-28 08:03-0700\n"
+"PO-Revision-Date: 2017-10-28 08:07+0000\n"
+"Last-Translator: あわしろいくや <ikunya@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/fcitx/fcitx/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is language name, %2 is country name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #. i18n: file: src/skinpage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, configureSkinButton)
@@ -111,7 +112,7 @@ msgstr "見た目"
 #: src/module.cpp:91
 #, kde-format
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #. i18n: file: src/impage.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -202,7 +203,7 @@ msgstr "既定の入力メソッド"
 #: layout/main.cpp:44
 #, kde-format
 msgid "Keyboard <layout>"
-msgstr ""
+msgstr "キーボード <layout>"
 
 #: layout/main.cpp:74
 #, kde-format
@@ -212,12 +213,12 @@ msgstr "キーボードレイアウトビューアー"
 #: layout/main.cpp:41
 #, kde-format
 msgid "Keyboard layout <group> (0-3)"
-msgstr ""
+msgstr "キーボードレイアウト <group> (0-3)"
 
 #: layout/main.cpp:47
 #, kde-format
 msgid "Keyboard layout <variant>"
-msgstr ""
+msgstr "キーボードレイアウト <variant>"
 
 #. i18n: file: src/impage.ui:38
 #. i18n: ectx: property (toolTip), widget (QPushButton, defaultLayoutButton)
@@ -349,7 +350,7 @@ msgstr "r_rudi, ikunya"
 #: layout/main.cpp:42
 #, kde-format
 msgid "group"
-msgstr ""
+msgstr "グループ"
 
 #: src/kcm_fcitx.desktop.in:14
 msgid "keyboard,input,im,fcitx"
@@ -362,7 +363,7 @@ msgstr "keyboard;input;im"
 #: layout/main.cpp:45
 #, kde-format
 msgid "layout"
-msgstr ""
+msgstr "レイアウト"
 
 #: layout/main.cpp:48
 #, kde-format
