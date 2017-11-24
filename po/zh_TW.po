@@ -8,16 +8,16 @@
 # csslayer <wengxt@gmail.com>, 2014
 # PHLin <Cypressyew@gmail.com>, 2017
 # Gerald Du <frozenmouse@gmail.com>, 2015
-# Jeff Huang <s8321414@gmail.com>, 2015
+# Jeff Huang <s8321414@gmail.com>, 2015,2017
 # csslayer <wengxt@gmail.com>, 2014
 # csslayer <wengxt@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-07-12 10:02-0700\n"
-"PO-Revision-Date: 2017-07-12 16:38+0000\n"
-"Last-Translator: PHLin <Cypressyew@gmail.com>\n"
+"POT-Creation-Date: 2017-11-24 08:03-0800\n"
+"PO-Revision-Date: 2017-11-24 13:52+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -207,7 +207,7 @@ msgstr "輸入法預設"
 #: layout/main.cpp:44
 #, kde-format
 msgid "Keyboard <layout>"
-msgstr ""
+msgstr "鍵盤 <layout>"
 
 #: layout/main.cpp:74
 #, kde-format
@@ -355,7 +355,7 @@ msgstr "Alisha"
 #: layout/main.cpp:42
 #, kde-format
 msgid "group"
-msgstr ""
+msgstr "群組"
 
 #: src/kcm_fcitx.desktop.in:14
 msgid "keyboard,input,im,fcitx"
@@ -373,4 +373,4 @@ msgstr "配置"
 #: layout/main.cpp:48
 #, kde-format
 msgid "variant"
-msgstr ""
+msgstr "變體"
