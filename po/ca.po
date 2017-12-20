@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2017-12-08 22:05+0000\n"
+"PO-Revision-Date: 2017-12-20 05:52+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/fcitx/fcitx/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -72,12 +72,12 @@ msgstr "Mostra l'opció &avançada"
 #: src/configwidget.cpp:450
 #, kde-format
 msgid "<b>Other</b>"
-msgstr "<b>Altre</b>"
+msgstr "<b>Altres</b>"
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
 msgid "Other"
-msgstr "Altre"
+msgstr "Altres"
 
 #: src/erroroverlay.cpp:43
 #, kde-format
@@ -183,7 +183,7 @@ msgstr "Primera candidata"
 #: src/skinpage.cpp:221
 #, kde-format
 msgid "Other candidate"
-msgstr "Una altra candidata"
+msgstr "Altres candidats"
 
 #: src/skinpage.cpp:390
 #, kde-format
@@ -265,7 +265,7 @@ msgstr "Les opcions que es llisten aquí poden ser anul·lades per mètodes d'en
 #. i18n: file: src/fontbutton.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, fontSelectButton)
 msgid "Select &Font..."
-msgstr "Seleccioneu el &tipus de lletra"
+msgstr "Selecciona la &lletra..."
 
 #. i18n: file: src/impage.ui:38
 #. i18n: ectx: property (toolTip), widget (QPushButton, defaultLayoutButton)
