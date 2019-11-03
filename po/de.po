@@ -5,15 +5,15 @@
 # Translators:
 # csslayer <wengxt@gmail.com>, 2014
 # mar well <m.wellendorf@gmx.de>, 2012-2013
-# mar well <m.wellendorf@gmx.de>, 2014,2017
+# mar well <m.wellendorf@gmx.de>, 2014,2017-2018
 # csslayer <wengxt@gmail.com>, 2014
 # csslayer <wengxt@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-07-28 04:02-0700\n"
-"PO-Revision-Date: 2017-07-28 10:58+0000\n"
+"POT-Creation-Date: 2019-11-03 12:28-0800\n"
+"PO-Revision-Date: 2018-06-25 23:36+0000\n"
 "Last-Translator: mar well <m.wellendorf@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/fcitx/fcitx/language/de/)\n"
 "Language: de\n"
@@ -258,10 +258,11 @@ msgid ""
 "including candidate number, hotkey of previous page and next page. You may "
 "need go to configuration of corresponding input method to change them."
 msgstr ""
-"Die aufgelisteten Optionen werden möglicherweise wegen Einstellungen der "
-"gewählten Eingabemethode außer Kraft gesetzt, wie Anzahl der Kandidaten, "
-"Tasten für vorherige oder nächste Kandidaten. Diese Einstellungen müssen "
-"möglicherweise in den Einstellungen der Eingabemethode festgelegt werden."
+"Die aufgelisteten Optionen - z.B. Anzahl der Kandidaten, Tasten für "
+"vorherige oder nächste Kandidaten - werden möglicherweise wegen "
+"Einstellungen der gewählten Eingabemethode außer Kraft gesetzt. Diese "
+"Einstellungen müssen dann in den Einstellungen der Eingabemethode festgelegt "
+"werden."
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
