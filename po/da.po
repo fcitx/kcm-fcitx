@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2019-05-18 22:22+0000\n"
+"PO-Revision-Date: 2019-11-19 15:23+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -265,7 +265,7 @@ msgstr "Valgmuligheder som vises her kan tilsidesættes af specifik inputmetode,
 #. i18n: file: src/fontbutton.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, fontSelectButton)
 msgid "Select &Font..."
-msgstr "Vælg &skrifttype..."
+msgstr "Vælg &skrifttype ..."
 
 #. i18n: file: src/impage.ui:38
 #. i18n: ectx: property (toolTip), widget (QPushButton, defaultLayoutButton)
@@ -323,7 +323,7 @@ msgstr "&Slet skin"
 #. i18n: file: src/skinpage.ui:58
 #. i18n: ectx: property (text), widget (QPushButton, installSkinButton)
 msgid "Get New &Skin..."
-msgstr "Hent nyt &skin..."
+msgstr "Hent nyt &skin ..."
 
 #. i18n: file: src/skinpage.ui:72
 #. i18n: ectx: property (text), widget (QLabel, label)
