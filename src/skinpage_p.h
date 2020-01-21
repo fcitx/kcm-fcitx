@@ -101,7 +101,7 @@ class SkinPage::Private : public QObject
 {
     enum {
         PixmapRole = 0x4532efd3,
-        PathRole = 0x8F213873
+        PathRole = 0x3F213873
     };
 
     Q_OBJECT
