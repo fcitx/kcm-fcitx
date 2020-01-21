@@ -131,7 +131,7 @@ QVariant SkinPage::Private::SkinModel::data(const QModelIndex& index, int role) 
     switch (role) {
     case PixmapRole:
         return skin->pixmap;
-    case PathRole:
+    case int(PathRole):
         return skin->path;
     }
     return QVariant();
