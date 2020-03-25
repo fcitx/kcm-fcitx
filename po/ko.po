@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
+# MarongHappy <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2017-07-15 12:42+0000\n"
-"Last-Translator: Bon Keun Seo <scobyseo@gmail.com>\n"
+"PO-Revision-Date: 2020-03-24 16:55+0000\n"
+"Last-Translator: MarongHappy <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,12 +22,12 @@ msgstr ""
 #: layout/main.cpp:37
 #, kde-format
 msgid "A general keyboard layout viewer"
-msgstr "일반 키보드 배열 보이기"
+msgstr "일반 키보드 자판 보기도구"
 
 #: layout/main.cpp:41
 #, kde-format
 msgid "Keyboard layout <group> (0-3)"
-msgstr "키보드 배열 <그룹> (0-3)"
+msgstr "키보드 자판 <그룹> (0-3)"
 
 #: layout/main.cpp:42
 #, kde-format
@@ -36,17 +37,17 @@ msgstr "그룹"
 #: layout/main.cpp:44
 #, kde-format
 msgid "Keyboard <layout>"
-msgstr "키보드 <배열>"
+msgstr "키보드 <자판>"
 
 #: layout/main.cpp:45
 #, kde-format
 msgid "layout"
-msgstr "배열"
+msgstr "자판"
 
 #: layout/main.cpp:47
 #, kde-format
 msgid "Keyboard layout <variant>"
-msgstr "키보드 배열 <변형>"
+msgstr "키보드 자판 <변형>"
 
 #: layout/main.cpp:48
 #, kde-format
@@ -56,7 +57,7 @@ msgstr "변형"
 #: layout/main.cpp:74
 #, kde-format
 msgid "Keyboard Layout viewer"
-msgstr "키보드 배열 보이기"
+msgstr "키보드 자판 보기도구"
 
 #: src/addonselector.cpp:375
 #, kde-format
@@ -66,7 +67,7 @@ msgstr "부가기능 검색"
 #: src/addonselector.cpp:382 src/configwidget.cpp:606
 #, kde-format
 msgid "Show &Advance option"
-msgstr "추가 설정 보이기(&A)"
+msgstr "고급 옵션 표시(&A)"
 
 #: src/configwidget.cpp:450
 #, kde-format
@@ -86,7 +87,7 @@ msgstr "Fcitx를 DBus에 연결할 수 없습니다. Fcitx가 동작 중입니�
 #: src/imconfigdialog.cpp:42
 #, kde-format
 msgid "<b>Keyboard Layout:</b>"
-msgstr "<b>키보드 배열:</b>"
+msgstr "<b>키보드 자판:</b>"
 
 #: src/imconfigdialog.cpp:47
 #, kde-format
@@ -127,7 +128,7 @@ msgstr "입력기 검색"
 #: src/module.cpp:83
 #, kde-format
 msgid "Fcitx Configuration Module"
-msgstr "Fcitx 설정 모듈"
+msgstr "Fcitx 환경설정 모듈"
 
 #: src/module.cpp:85
 #, kde-format
@@ -209,7 +210,7 @@ msgstr "복사"
 #: src/subconfigwidget.cpp:233
 #, kde-format
 msgid "View system"
-msgstr "시스템 파일 보기"
+msgstr "시스템 보기"
 
 #: src/subconfigwidget.cpp:245
 #, kde-format
@@ -224,15 +225,15 @@ msgstr "현재 사용자 인터페이스 정보를 불러올 수 없음"
 #: src/uipage.cpp:45
 #, kde-format
 msgid "No configuration options for %1."
-msgstr "%1 에 대한 설정이 없음"
+msgstr "%1 에 대한 환경설정이 없음"
 
 #: layout/kbd-layout-viewer.desktop.in:6
 msgid "Keyboard layout viewer"
-msgstr "키보드 배열 표시기"
+msgstr "키보드 자판 보기도구"
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
-msgstr "키보드 배열 보이기"
+msgstr "키보드 자판 보기"
 
 #: layout/kbd-layout-viewer.desktop.in:9
 msgid "keyboard;input;im"
@@ -259,7 +260,7 @@ msgid ""
 "Options listed here might be overridden by specific input method, usually "
 "including candidate number, hotkey of previous page and next page. You may "
 "need go to configuration of corresponding input method to change them."
-msgstr "표시된 옵션은 입력기에 의해 덮어씌워질 수 있습니다. 대체로 후보 개수, 이전 혹은 다음 페이지의 단축기 등이 해당됩니다. 그냥 당연한 거 같아요.해당 입력기의 설정 페이지에서 변경 가능합니다."
+msgstr "표시된 옵션은 입력기에 의해 덮어씌워질 수 있습니다. 대체로 후보 개수, 이전 혹은 다음 페이지의 단축기 등이 해당됩니다. 그냥 당연한 거 같아요.해당 입력기의 환경설정 페이지에서 변경 가능합니다."
 
 #. i18n: file: src/fontbutton.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, fontSelectButton)
@@ -269,12 +270,12 @@ msgstr "글꼴 선택(&F)"
 #. i18n: file: src/impage.ui:38
 #. i18n: ectx: property (toolTip), widget (QPushButton, defaultLayoutButton)
 msgid "Keyboard layout to use when no input method active"
-msgstr "활성 입력기가 없을 때 사용할 키보드 배열"
+msgstr "활성 입력기가 없을 때 사용할 키보드 자판"
 
 #. i18n: file: src/impage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, defaultLayoutButton)
 msgid "Select default keyboard layout"
-msgstr "기본 키보드 배열 선택"
+msgstr "기본 키보드 자판 선택"
 
 #. i18n: file: src/impage.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -285,7 +286,7 @@ msgstr "사용가능한 입력기:"
 #. i18n: ectx: property (text), widget (QCheckBox,
 #. onlyCurrentLanguageCheckBox)
 msgid "Only &Show Current Language"
-msgstr "현재 언어만 보이기(&S)"
+msgstr "현재 언어만 표시(&S)"
 
 #. i18n: file: src/impage.ui:176
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -297,12 +298,12 @@ msgstr "현재 입력기:"
 msgid ""
 "The first input method will be inactive state. Usually you need to put "
 "<b>Keyboard</b> or <b>Keyboard - <i>layout name</i></b> in the first place."
-msgstr "첫 입력 방법이 비활성화 상태입니다. 대체로 <b>키보드</b> 또는 <b>키보드 - <i> 배열명 </i> </b>를 첫 항목으로 하여야 합니다."
+msgstr "첫번째 입력기가 비활성화 상태입니다. 대체로 <b>키보드</b> 또는 <b>키보드 - <i> 자판명 </i> </b>을 첫 항목으로 하여야 합니다."
 
 #. i18n: file: src/impage.ui:292
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 msgid "<b>Default keyboard layout:</b>"
-msgstr "<b>기본 키보드 배열:</b>"
+msgstr "<b>기본 키보드 자판:</b>"
 
 #. i18n: file: src/impage.ui:302
 #. i18n: ectx: property (text), widget (QLabel, label_4)
