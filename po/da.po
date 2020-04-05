@@ -4,13 +4,13 @@
 # 
 # Translators:
 # scootergrisen, 2017,2019
-# scootergrisen, 2017,2019
+# scootergrisen, 2017,2019-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2019-11-19 15:23+0000\n"
+"PO-Revision-Date: 2020-04-04 07:42+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/fcitx/fcitx/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "Udseende"
 #: src/module.cpp:129
 #, kde-format
 msgid "Addon Config"
-msgstr "Tilføjelse-konfiguration"
+msgstr "Tilføjelseskonfiguration"
 
 #: src/module.cpp:178
 #, kde-format
