@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
 "POT-Creation-Date: 2017-06-09 08:49-0700\n"
-"PO-Revision-Date: 2020-05-05 21:28+0000\n"
+"PO-Revision-Date: 2020-05-09 22:00+0000\n"
 "Last-Translator: abc Def <hdogan1974@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/fcitx/fcitx/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -60,12 +60,12 @@ msgstr "türü"
 #: layout/main.cpp:74
 #, kde-format
 msgid "Keyboard Layout viewer"
-msgstr ""
+msgstr "Klavye Serilimi görüntüleyici"
 
 #: src/addonselector.cpp:375
 #, kde-format
 msgid "Search Addons"
-msgstr ""
+msgstr "Eklentileri Ara"
 
 #: src/addonselector.cpp:382 src/configwidget.cpp:606
 #, kde-format
@@ -236,7 +236,7 @@ msgstr "Klavye Düzeni görüntüleyici"
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
-msgstr ""
+msgstr "Klavye serilimini görüntüler"
 
 #: layout/kbd-layout-viewer.desktop.in:9
 msgid "keyboard;input;im"
