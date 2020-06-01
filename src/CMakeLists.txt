@@ -40,7 +40,6 @@ target_link_libraries(kcm_fcitx
   KF5::I18n
   KF5::KIOCore
   KF5::KIOWidgets
-  KF5::NewStuff
   FcitxQt5::WidgetsAddons
   FcitxQt5::DBusAddons
   ${FCITX4_FCITX_UTILS_LIBRARIES}
@@ -56,10 +55,6 @@ fcitx_translate_add_apply_source(
   "${CMAKE_CURRENT_BINARY_DIR}/kcm_fcitx.desktop")
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/kcm_fcitx.desktop"
   DESTINATION ${CMAKE_INSTALL_KSERVICES5DIR})
-
-message("GHNS DIR : ${CONFIG_INSTALL_DIR}")
-
-install(FILES fcitx-skin.knsrc DESTINATION ${CONFIG_INSTALL_DIR})
 
 if(ENABLE_TEST)
   add_subdirectory(test)

@@ -87,10 +87,10 @@ public:
     AddonModel(AddonSelector::Private *addonSelector_d, QObject* parent = 0);
     virtual ~AddonModel();
 
-    virtual QModelIndex index(int row, int column = 0, const QModelIndex& parent = QModelIndex()) const;
-    virtual QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const;
-    virtual bool setData(const QModelIndex& index, const QVariant& value, int role = Qt::EditRole);
-    virtual int rowCount(const QModelIndex& parent = QModelIndex()) const;
+    QModelIndex index(int row, int column = 0, const QModelIndex& parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const override;
+    bool setData(const QModelIndex& index, const QVariant& value, int role = Qt::EditRole) override;
+    int rowCount(const QModelIndex& parent = QModelIndex()) const override;
     void addAddon(FcitxAddon* addon);
 
 private:
@@ -108,8 +108,8 @@ public:
     virtual ~ProxyModel();
 
 protected:
-    virtual bool filterAcceptsRow(int source_row, const QModelIndex& source_parent) const;
-    virtual bool subSortLessThan(const QModelIndex& left, const QModelIndex& right) const;
+    bool filterAcceptsRow(int source_row, const QModelIndex& source_parent) const override;
+    bool subSortLessThan(const QModelIndex& left, const QModelIndex& right) const override;
 
 private:
     AddonSelector::Private* addonSelector_d;
@@ -124,16 +124,16 @@ public:
     AddonDelegate(AddonSelector::Private *addonSelector_d, QObject* parent = 0);
     virtual ~AddonDelegate();
 
-    virtual void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const;
-    virtual QSize sizeHint(const QStyleOptionViewItem& option, const QModelIndex& index) const;
+    void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const override;
+    QSize sizeHint(const QStyleOptionViewItem& option, const QModelIndex& index) const override;
 
 Q_SIGNALS:
     void changed(bool hasChanged);
     void configCommitted(const QByteArray& addonName);
 
 protected:
-    virtual QList< QWidget* > createItemWidgets(const QModelIndex &index) const;
-    virtual void updateItemWidgets(const QList< QWidget* > widgets, const QStyleOptionViewItem& option, const QPersistentModelIndex& index) const;
+    QList< QWidget* > createItemWidgets(const QModelIndex &index) const override;
+    void updateItemWidgets(const QList< QWidget* > widgets, const QStyleOptionViewItem& option, const QPersistentModelIndex& index) const override;
 
 private Q_SLOTS:
     void slotStateChanged(bool state);

@@ -32,7 +32,7 @@ public slots:
     void onConnectStatusChanged(bool connected);
 
 protected:
-    bool eventFilter(QObject *object, QEvent *event);
+    bool eventFilter(QObject *object, QEvent *event) override;
 
 private:
     void reposition();

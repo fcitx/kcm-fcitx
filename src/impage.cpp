@@ -633,7 +633,7 @@ void IMPage::Private::addIM(const QModelIndex& index)
         for (int i = 0; i < m_list.size(); i ++) {
             if (uniqueName == m_list[i].uniqueName()) {
                 m_list[i].setEnabled(true);
-                qStableSort(m_list.begin(), m_list.end());
+                std::stable_sort(m_list.begin(), m_list.end());
                 emit updateIMList(m_list, uniqueName);
                 emit changed();
                 break;
@@ -649,7 +649,7 @@ void IMPage::Private::removeIM(const QModelIndex& index)
         for (int i = 0; i < m_list.size(); i ++) {
             if (uniqueName == m_list[i].uniqueName()) {
                 m_list[i].setEnabled(false);
-                qStableSort(m_list.begin(), m_list.end());
+                std::stable_sort(m_list.begin(), m_list.end());
                 emit updateIMList(m_list, uniqueName);
                 emit changed();
                 break;
@@ -674,8 +674,8 @@ void IMPage::Private::moveDownIM()
         }
 
         if (curIMIdx >= 0 && nextIMIdx >= 0 && curIMIdx != nextIMIdx) {
-            m_list.swap(curIMIdx, nextIMIdx);
-            qStableSort(m_list.begin(), m_list.end());
+            m_list.swapItemsAt(curIMIdx, nextIMIdx);
+            std::stable_sort(m_list.begin(), m_list.end());
             emit updateIMList(m_list, curIndex.data(FcitxIMUniqueNameRole).toString());
             emit changed();
         }
@@ -720,8 +720,8 @@ void IMPage::Private::moveUpIM()
         }
 
         if (curIMIdx >= 0 && nextIMIdx >= 0 && curIMIdx != nextIMIdx) {
-            m_list.swap(curIMIdx, nextIMIdx);
-            qStableSort(m_list.begin(), m_list.end());
+            m_list.swapItemsAt(curIMIdx, nextIMIdx);
+            std::stable_sort(m_list.begin(), m_list.end());
             emit updateIMList(m_list, curIndex.data(FcitxIMUniqueNameRole).toString());
             emit changed();
         }
@@ -738,7 +738,7 @@ void IMPage::Private::fetchIMList()
 {
     if (Global::instance()->inputMethodProxy()) {
         m_list = Global::instance()->inputMethodProxy()->iMList();
-        qStableSort(m_list.begin(), m_list.end());
+        std::stable_sort(m_list.begin(), m_list.end());
         emit updateIMList(m_list, QString());
     }
 }

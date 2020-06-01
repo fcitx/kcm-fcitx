@@ -29,7 +29,7 @@ public:
     explicit VerticalScrollArea(QWidget* parent = 0);
     void setWidget(QWidget *widget);
 protected:
-    virtual bool eventFilter(QObject* o, QEvent* e);
+    bool eventFilter(QObject* o, QEvent* e) override;
 };
 }
 

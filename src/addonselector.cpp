@@ -272,7 +272,7 @@ QSize AddonSelector::Private::AddonDelegate::sizeHint(const QStyleOptionViewItem
     QFont font = titleFont(option.font);
     QFontMetrics fmTitle(font);
 
-    return QSize(fmTitle.width(index.model()->data(index, Qt::DisplayRole).toString()) +
+    return QSize(fmTitle.horizontalAdvance(index.model()->data(index, Qt::DisplayRole).toString()) +
                  0 + MARGIN * i + pushButton->sizeHint().width() * j,
                  fmTitle.height() + option.fontMetrics.height() + MARGIN * 2);
 }

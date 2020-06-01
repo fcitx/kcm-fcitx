@@ -44,8 +44,6 @@ public Q_SLOTS:
     void save();
 Q_SIGNALS:
     void changed();
-protected Q_SLOTS:
-    void installButtonClicked();
 private:
     class Private;
     Module* m_module;

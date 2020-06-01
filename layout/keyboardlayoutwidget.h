@@ -3,6 +3,7 @@
 #ifndef KEYBOARDLAYOUTWIDGET_H
 #define KEYBOARDLAYOUTWIDGET_H
 
+#include <QPainterPath>
 #include <QWidget>
 #include <QMap>
 #include <QAbstractNativeEventFilter>

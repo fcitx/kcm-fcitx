@@ -25,9 +25,6 @@
 #include <QPointer>
 #include <QLineEdit>
 
-// KDE
-#include <KNS3/DownloadDialog>
-
 // Fcitx
 #include <fcitx-config/xdg.h>
 
@@ -167,7 +164,7 @@ void SkinPage::Private::SkinModel::setSkinList(const QStringList& list)
     endRemoveRows();
 
     QStringList sortedList = list;
-    qSort(sortedList);
+    std::sort(sortedList.begin(), sortedList.end());
 
     Q_FOREACH(const QString & im, sortedList) {
         beginInsertRows(QModelIndex(), m_skins.size(), m_skins.size());
@@ -254,8 +251,8 @@ QPixmap SkinPage::Private::SkinModel::drawSkinPreview(const QString& path)
         else
             resizeHeight = skin.inputbar.iOutputPos;
         for (int i = 0; i < 2; i++) {
-            resizeWidth += metrics.width(numberStr[i]);
-            resizeWidth += metrics.width(candStr[i]);
+            resizeWidth += metrics.horizontalAdvance(numberStr[i]);
+            resizeWidth += metrics.horizontalAdvance(candStr[i]);
         };
         int totalWidth = marginLeft + marginRight + resizeWidth;
         int totalHeight = marginTop + marginBottom + resizeHeight;
@@ -286,23 +283,23 @@ QPixmap SkinPage::Private::SkinModel::drawSkinPreview(const QString& path)
         QColor otherColor = ConvertColor(skin.inputbar.otherColor);
 
         textPainter.setPen(inputColor);
-        textPainter.drawText(marginLeft, inputPos, metrics.width(inputExample), fontHeight, Qt::AlignVCenter, inputExample);
+        textPainter.drawText(marginLeft, inputPos, metrics.horizontalAdvance(inputExample), fontHeight, Qt::AlignVCenter, inputExample);
 
         // Draw candidate number:
         textPainter.setPen(indexColor);
         for (int i = 0; i < 2; i++) {
-            textPainter.drawText(offset, outputPos, metrics.width(numberStr[i]), fontHeight, Qt::AlignVCenter, numberStr[i]);
-            offset = offset + metrics.width(numberStr[i]) + metrics.width(candStr[i]) + metrics.width(spaceStr);
+            textPainter.drawText(offset, outputPos, metrics.horizontalAdvance(numberStr[i]), fontHeight, Qt::AlignVCenter, numberStr[i]);
+            offset = offset + metrics.horizontalAdvance(numberStr[i]) + metrics.horizontalAdvance(candStr[i]) + metrics.horizontalAdvance(spaceStr);
         }
 
-        offset = marginLeft + metrics.width(numberStr[0]);
+        offset = marginLeft + metrics.horizontalAdvance(numberStr[0]);
 
         textPainter.setPen(firstCandColor);
-        textPainter.drawText(offset, outputPos, metrics.width(candStr[0]), fontHeight, Qt::AlignVCenter, candStr[0]);
-        offset = offset + metrics.width(candStr[0]) + metrics.width(spaceStr) + metrics.width(numberStr[1]);
+        textPainter.drawText(offset, outputPos, metrics.horizontalAdvance(candStr[0]), fontHeight, Qt::AlignVCenter, candStr[0]);
+        offset = offset + metrics.horizontalAdvance(candStr[0]) + metrics.horizontalAdvance(spaceStr) + metrics.horizontalAdvance(numberStr[1]);
 
         textPainter.setPen(otherColor);
-        textPainter.drawText(offset, outputPos, metrics.width(candStr[1]), fontHeight, Qt::AlignVCenter, candStr[1]);
+        textPainter.drawText(offset, outputPos, metrics.horizontalAdvance(candStr[1]), fontHeight, Qt::AlignVCenter, candStr[1]);
 
         textPainter.end();
 
@@ -388,7 +385,7 @@ QPixmap SkinPage::Private::SkinModel::drawSkinPreview(const QString& path)
         QFont inputFont(qApp->font());
         QFontMetrics fm(inputFont);
         QString errmsg = i18n("Skin %1 Cannot be loaded").arg(skinName);
-        int w = fm.width(errmsg);
+        int w = fm.horizontalAdvance(errmsg);
         QPixmap destPixmap(w, fm.height());
         destPixmap.fill(Qt::transparent);
 
@@ -704,7 +701,7 @@ void SkinPage::Private::load()
         delete m_subConfig;
 
     m_subConfig = m_parser.getSubConfig("Skin");
-    skinModel->setSkinList(m_subConfig->fileList().toList());
+    skinModel->setSkinList(m_subConfig->fileList().values());
 
     QString skinName = skinField->text();
 
@@ -824,7 +821,6 @@ SkinPage::SkinPage(Module* module, QWidget* parent):
 
 {
     m_ui->setupUi(this);
-    m_ui->installSkinButton->setIcon(QIcon::fromTheme("get-hot-new-stuff"));
 
     d->configureSkinButton = m_ui->configureSkinButton;
     d->deleteSkinButton = m_ui->deleteSkinButton;
@@ -836,7 +832,6 @@ SkinPage::SkinPage(Module* module, QWidget* parent):
     d->skinView->setItemDelegate(d->skinDelegate);
     d->module = module;
 
-    connect(m_ui->installSkinButton, SIGNAL(clicked()), this, SLOT(installButtonClicked()));
     connect(d->deleteSkinButton, SIGNAL(clicked(bool)), d, SLOT(deleteSkin()));
     connect(d->configureSkinButton, SIGNAL(clicked(bool)), d, SLOT(configureSkin()));
     connect(d->skinView->selectionModel(), SIGNAL(currentChanged(QModelIndex, QModelIndex)), d, SLOT(currentSkinChanged()));
@@ -871,17 +866,6 @@ void SkinPage::setSkinField(QLineEdit* lineEdit)
     if (d->skinField) {
         load();
     }
-}
-
-void SkinPage::installButtonClicked()
-{
-    QPointer<KNS3::DownloadDialog> dialog(new KNS3::DownloadDialog("fcitx-skin.knsrc"));
-    dialog->exec();
-    foreach(const KNS3::Entry & e, dialog->changedEntries()) {
-        qDebug() << "Changed Entry: " << e.name();
-    }
-    delete dialog;
-    load();
 }
 
 }

@@ -41,9 +41,9 @@ class ConfigFileItemModel : public QAbstractListModel
 public:
     ConfigFileItemModel(QObject* parent = 0);
     virtual ~ConfigFileItemModel();
-    virtual QModelIndex index(int row, int column, const QModelIndex& parent = QModelIndex()) const;
-    virtual int rowCount(const QModelIndex& parent = QModelIndex()) const;
-    virtual QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const;
+    QModelIndex index(int row, int column, const QModelIndex& parent = QModelIndex()) const override;
+    int rowCount(const QModelIndex& parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const override;
     void addConfigFile(ConfigFile* configfile);
 private:
     QList<ConfigFile*> m_files;

@@ -207,7 +207,7 @@ void Module::load()
             configDialog->setAttribute(Qt::WA_DeleteOnClose);
             configDialog->open();
         }
-        m_arg = QString::null;
+        m_arg = QString();
     }
 
     if (m_imPage)
@@ -239,7 +239,7 @@ void Module::defaults()
     if (m_imPage) {
         m_imPage->defaults();
     }
-    changed();
+    markAsChanged();
 }
 
 }

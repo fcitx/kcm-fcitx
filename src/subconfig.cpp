@@ -137,7 +137,7 @@ void SubConfig::parseProgramSubConfig(const SubConfigPattern* pattern)
     }
     QFileInfo info(program);
     if (!info.isExecutable())
-        program = QString::null;
+        program = QString();
 
     m_progam = program;
 }

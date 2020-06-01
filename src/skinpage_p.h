@@ -138,10 +138,10 @@ class SkinPage::Private::SkinModel : public QAbstractListModel
     Q_OBJECT
 public:
     SkinModel(Private* d, QObject* parent = 0);
-    virtual QModelIndex index(int row, int column = 0, const QModelIndex& parent = QModelIndex()) const;
-    virtual QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const;
-    virtual int rowCount(const QModelIndex& parent = QModelIndex()) const;
-    virtual bool setData(const QModelIndex& index, const QVariant& value, int role = Qt::EditRole);
+    QModelIndex index(int row, int column = 0, const QModelIndex& parent = QModelIndex()) const override;
+    QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const override;
+    int rowCount(const QModelIndex& parent = QModelIndex()) const override;
+    bool setData(const QModelIndex& index, const QVariant& value, int role = Qt::EditRole) override;
     void setSkinList(const QStringList& list);
     const QList<SkinInfo>& skinList() const;
 private:
@@ -175,8 +175,8 @@ public:
     SkinDelegate(QObject* parent = 0);
     ~SkinDelegate();
 
-    virtual void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const;
-    virtual QSize sizeHint(const QStyleOptionViewItem& option, const QModelIndex& index) const;
+    void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const override;
+    QSize sizeHint(const QStyleOptionViewItem& option, const QModelIndex& index) const override;
 signals:
     void regeneratePreview(const QModelIndex& index, const QSize& size) const;
 };
