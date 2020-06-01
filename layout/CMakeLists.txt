@@ -19,4 +19,4 @@ fcitx_translate_add_apply_source(
   kbd-layout-viewer.desktop.in
   "${CMAKE_CURRENT_BINARY_DIR}/kbd-layout-viewer.desktop")
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/kbd-layout-viewer.desktop"
-  DESTINATION ${CMAKE_INSTALL_KSERVICES5DIR})
+  DESTINATION ${CMAKE_INSTALL_APPDIR})
