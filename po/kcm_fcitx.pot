@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2017-06-09 08:49-0700\n"
+"POT-Creation-Date: 2020-06-02 00:02-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,17 +173,17 @@ msgstr ""
 msgid "Manage Skin"
 msgstr ""
 
-#: src/skinpage.cpp:220
+#: src/skinpage.cpp:217
 #, kde-format
 msgid "First candidate"
 msgstr ""
 
-#: src/skinpage.cpp:221
+#: src/skinpage.cpp:218
 #, kde-format
 msgid "Other candidate"
 msgstr ""
 
-#: src/skinpage.cpp:390
+#: src/skinpage.cpp:387
 #, kde-format
 msgid "Skin %1 Cannot be loaded"
 msgstr ""
@@ -317,12 +317,7 @@ msgstr ""
 msgid "&Delete Skin"
 msgstr ""
 
-#. i18n: file: src/skinpage.ui:58
-#. i18n: ectx: property (text), widget (QPushButton, installSkinButton)
-msgid "Get New &Skin..."
-msgstr ""
-
-#. i18n: file: src/skinpage.ui:72
+#. i18n: file: src/skinpage.ui:65
 #. i18n: ectx: property (text), widget (QLabel, label)
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-01-13 00:01-0800\n"
+"POT-Creation-Date: 2020-06-02 00:02-0700\n"
 "PO-Revision-Date: 2018-06-25 23:36+0000\n"
 "Last-Translator: mar well <m.wellendorf@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/fcitx/fcitx/language/de/)\n"
@@ -38,7 +38,7 @@ msgstr "&Skin konfigurieren"
 msgid "&Delete Skin"
 msgstr "&Skin löschen"
 
-#. i18n: file: src/skinpage.ui:72
+#. i18n: file: src/skinpage.ui:65
 #. i18n: ectx: property (text), widget (QLabel, label)
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -170,7 +170,7 @@ msgstr "Standard"
 msgid "Fcitx Configuration Module"
 msgstr "Fcitx Konfigurationsmodul"
 
-#: src/skinpage.cpp:220
+#: src/skinpage.cpp:217
 #, kde-format
 msgid "First candidate"
 msgstr "Erster Kandidat"
@@ -181,11 +181,6 @@ msgstr "Erster Kandidat"
 #. i18n: ectx: property (windowTitle), widget (QWidget, FontButton)
 msgid "Form"
 msgstr "Form"
-
-#. i18n: file: src/skinpage.ui:58
-#. i18n: ectx: property (text), widget (QPushButton, installSkinButton)
-msgid "Get New &Skin..."
-msgstr "&Neue Skins herunterladen"
 
 #: src/module.cpp:113
 #, kde-format
@@ -269,7 +264,7 @@ msgstr ""
 msgid "Other"
 msgstr "Andere"
 
-#: src/skinpage.cpp:221
+#: src/skinpage.cpp:218
 #, kde-format
 msgid "Other candidate"
 msgstr "Anderer Kandidat"
@@ -299,7 +294,7 @@ msgstr "Standard Tastaturlayout auswählen"
 msgid "Show &Advance option"
 msgstr "Erweiterte &Einstellungen anzeigen"
 
-#: src/skinpage.cpp:390
+#: src/skinpage.cpp:387
 #, kde-format
 msgid "Skin %1 Cannot be loaded"
 msgstr "Skin %1 kann nicht geladen werden"
@@ -378,3 +373,6 @@ msgstr "Layout"
 #, kde-format
 msgid "variant"
 msgstr "Variante"
+
+#~ msgid "Get New &Skin..."
+#~ msgstr "&Neue Skins herunterladen"

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-01-13 00:01-0800\n"
+"POT-Creation-Date: 2020-06-02 00:02-0700\n"
 "PO-Revision-Date: 2017-09-19 10:47+0000\n"
 "Last-Translator: csslayer <wengxt@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/fcitx/fcitx/"
@@ -45,7 +45,7 @@ msgstr "配置皮肤(&C)"
 msgid "&Delete Skin"
 msgstr "删除皮肤(&D)"
 
-#. i18n: file: src/skinpage.ui:72
+#. i18n: file: src/skinpage.ui:65
 #. i18n: ectx: property (text), widget (QLabel, label)
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -175,7 +175,7 @@ msgstr "默认"
 msgid "Fcitx Configuration Module"
 msgstr "Fcitx 配置模块"
 
-#: src/skinpage.cpp:220
+#: src/skinpage.cpp:217
 #, kde-format
 msgid "First candidate"
 msgstr "第一候选词"
@@ -186,11 +186,6 @@ msgstr "第一候选词"
 #. i18n: ectx: property (windowTitle), widget (QWidget, FontButton)
 msgid "Form"
 msgstr "表格"
-
-#. i18n: file: src/skinpage.ui:58
-#. i18n: ectx: property (text), widget (QPushButton, installSkinButton)
-msgid "Get New &Skin..."
-msgstr "撷取新皮肤(&S)..."
 
 #: src/module.cpp:113
 #, kde-format
@@ -271,7 +266,7 @@ msgstr ""
 msgid "Other"
 msgstr "其它"
 
-#: src/skinpage.cpp:221
+#: src/skinpage.cpp:218
 #, kde-format
 msgid "Other candidate"
 msgstr "其它候选词"
@@ -301,7 +296,7 @@ msgstr "选择默认键盘布局"
 msgid "Show &Advance option"
 msgstr "显示高级选项(&A)"
 
-#: src/skinpage.cpp:390
+#: src/skinpage.cpp:387
 #, kde-format
 msgid "Skin %1 Cannot be loaded"
 msgstr "无法加载皮肤 %1"
@@ -376,3 +371,6 @@ msgstr "布局"
 #, kde-format
 msgid "variant"
 msgstr "变体"
+
+#~ msgid "Get New &Skin..."
+#~ msgstr "撷取新皮肤(&S)..."
