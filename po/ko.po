@@ -4,14 +4,15 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# MarongHappy <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-06-02 00:02-0700\n"
-"PO-Revision-Date: 2020-03-24 16:55+0000\n"
-"Last-Translator: MarongHappy <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2020-08-01 00:02-0700\n"
+"PO-Revision-Date: 2020-08-01 06:37+0000\n"
+"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +29,7 @@ msgstr "%1 (%2)"
 #. i18n: file: src/skinpage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, configureSkinButton)
 msgid "&Configure Skin"
-msgstr "스킨 설정(&C)"
+msgstr "스킨 구성하기(&C)"
 
 #. i18n: file: src/skinpage.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, deleteSkinButton)
@@ -129,11 +130,11 @@ msgstr "현재 사용자 인터페이스 정보를 불러올 수 없음"
 #: src/module.cpp:85
 #, kde-format
 msgid "Configure Fcitx"
-msgstr "Fcitx 설정"
+msgstr "Fcitx 구성하기"
 
 #: src/kcm_fcitx.desktop.in:12
 msgid "Configure Input Method"
-msgstr "입력기 설정"
+msgstr "입력기 구성하기"
 
 #: src/subconfigwidget.cpp:232
 #, kde-format
@@ -363,6 +364,3 @@ msgstr "자판"
 #, kde-format
 msgid "variant"
 msgstr "변형"
-
-#~ msgid "Get New &Skin..."
-#~ msgstr "새 스킨 얻기(&S)"
