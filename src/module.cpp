@@ -239,7 +239,7 @@ void Module::defaults()
     if (m_imPage) {
         m_imPage->defaults();
     }
-    markAsChanged();
+    KCModule::changed();
 }
 
 }

@@ -12,7 +12,7 @@ option(ENABLE_TEST "Enable test" Off)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS Core Gui Widgets X11Extras)
 
-find_package(KF5 5.64 REQUIRED COMPONENTS
+find_package(KF5 5.54 REQUIRED COMPONENTS
     CoreAddons
     WidgetsAddons
     ConfigWidgets
