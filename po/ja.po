@@ -4,17 +4,19 @@
 #
 # Translators:
 # しろう <>, 2013
+# あわしろいくや <ikunya@gmail.com>, 2017
 # csslayer <wengxt@gmail.com>, 2014
-# いくや (AWASHIRO Ikuya) <ikunya@gmail.com>, 2017
+# あわしろいくや <ikunya@gmail.com>, 2017
+# Takuro Onoue <kusanaginoturugi@gmail.com>, 2020
 # csslayer <wengxt@gmail.com>, 2014
 # csslayer <wengxt@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-06-02 00:02-0700\n"
-"PO-Revision-Date: 2017-10-28 08:07+0000\n"
-"Last-Translator: いくや (AWASHIRO Ikuya) <ikunya@gmail.com>\n"
+"POT-Creation-Date: 2020-12-05 00:02+0100\n"
+"PO-Revision-Date: 2020-12-04 10:33+0000\n"
+"Last-Translator: Takuro Onoue <kusanaginoturugi@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/fcitx/fcitx/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -251,6 +253,9 @@ msgid ""
 "including candidate number, hotkey of previous page and next page. You may "
 "need go to configuration of corresponding input method to change them."
 msgstr ""
+"これらのオプションは特定の入力メソッドで上書きされることがあります。候補数、"
+"前ページや次ページのホットキーなどはその可能性が高いです。これらの動作を変え"
+"るには、対応する入力メソッドの設定が必要です。"
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
@@ -363,7 +368,4 @@ msgstr "レイアウト"
 #: layout/main.cpp:48
 #, kde-format
 msgid "variant"
-msgstr ""
-
-#~ msgid "Get New &Skin..."
-#~ msgstr "新スキンを取得 (&S) ..."
+msgstr "バリアント"
