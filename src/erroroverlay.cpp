@@ -60,7 +60,8 @@ ErrorOverlay::ErrorOverlay(QWidget *baseWidget, QWidget *parent) :
     setAutoFillBackground(true);
 
     m_BaseWidget->installEventFilter(this);
-
+    // Destory overlay with the base widget.
+    connect(m_BaseWidget, SIGNAL(destroyed()), this, SLOT(deleteLater()));
     connect(Fcitx::Global::instance(), SIGNAL(connectStatusChanged(bool)), this, SLOT(onConnectStatusChanged(bool)));
     onConnectStatusChanged(Fcitx::Global::instance()->inputMethodProxy() != 0);
 }

@@ -21,6 +21,7 @@
 #define ERROROVERLAY_H
 
 #include <QWidget>
+#include <QPointer>
 
 class ErrorOverlay : public QWidget
 {
@@ -38,7 +39,7 @@ private:
     void reposition();
 
 private:
-    QWidget *m_BaseWidget;
+    QPointer<QWidget> m_BaseWidget;
     bool m_enable;
 };
 
