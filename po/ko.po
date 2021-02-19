@@ -4,15 +4,16 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# JungHee Lee <daemul72@gmail.com>, 2020
-# JungHee Lee <daemul72@gmail.com>, 2020
+# Bruce Lee <daemul72@gmail.com>, 2021
+# Bruce Lee <daemul72@gmail.com>, 2020
+# Bruce Lee <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-08-01 00:02-0700\n"
-"PO-Revision-Date: 2020-08-01 06:37+0000\n"
-"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2021-02-19 05:14+0000\n"
+"PO-Revision-Date: 2021-02-10 14:00+0000\n"
+"Last-Translator: Bruce Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +101,7 @@ msgstr "일반 키보드 자판 보기도구"
 #: src/module.cpp:129
 #, kde-format
 msgid "Addon Config"
-msgstr "부가기능 설정"
+msgstr "애드온 설정"
 
 #: src/module.cpp:121
 #, kde-format
@@ -266,7 +267,7 @@ msgstr "다른 후보"
 #: src/addonselector.cpp:375
 #, kde-format
 msgid "Search Addons"
-msgstr "부가기능 검색"
+msgstr "애드온 검색"
 
 #: src/impage.cpp:481
 #, kde-format
