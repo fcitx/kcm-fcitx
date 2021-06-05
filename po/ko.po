@@ -4,16 +4,17 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# Bruce Lee <daemul72@gmail.com>, 2021
-# Bruce Lee <daemul72@gmail.com>, 2020
-# Bruce Lee <daemul72@gmail.com>, 2020
+# Jung Hee Lee <daemul72@gmail.com>, 2021
+# Jung Hee Lee <daemul72@gmail.com>, 2020
+# Jung Hee Lee <daemul72@gmail.com>, 2021
+# Jung Hee Lee <daemul72@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2021-02-19 05:14+0000\n"
-"PO-Revision-Date: 2021-02-10 14:00+0000\n"
-"Last-Translator: Bruce Lee <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2021-06-05 20:27+0000\n"
+"PO-Revision-Date: 2021-06-05 06:07+0000\n"
+"Last-Translator: Jung Hee Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +122,7 @@ msgstr "사용가능한 입력기:"
 #: src/erroroverlay.cpp:43
 #, kde-format
 msgid "Cannot connect to Fcitx by DBus, is Fcitx running?"
-msgstr "Fcitx를 DBus에 연결할 수 없습니다. Fcitx가 동작 중입니까?"
+msgstr "DBus로 Fcitx에 연결할 수 없습니다. Fcitx가 실행되고 있습니까?"
 
 #: src/uipage.cpp:16
 #, kde-format
