@@ -4,7 +4,7 @@
 #
 # Translators:
 # しろう <>, 2013
-# abc Def <hdogan1974@gmail.com>, 2020
+# abc Def <hdogan1974@gmail.com>, 2020-2021
 # csslayer <wengxt@gmail.com>, 2014,2017
 # Gökhan Kalayci <gkmediagokhan@gmail.com>, 2017
 # csslayer <wengxt@gmail.com>, 2017
@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2020-06-02 00:02-0700\n"
-"PO-Revision-Date: 2020-05-09 22:00+0000\n"
+"POT-Creation-Date: 2021-11-18 20:07+0000\n"
+"PO-Revision-Date: 2021-11-02 09:04+0000\n"
 "Last-Translator: abc Def <hdogan1974@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/fcitx/fcitx/language/tr/)\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is language name, %2 is country name"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #. i18n: file: src/skinpage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, configureSkinButton)
@@ -77,7 +77,7 @@ msgstr "<b>Varsayılan Klavye Düzeni :</b>"
 #: src/imconfigdialog.cpp:98
 #, kde-format
 msgid "<b>Input Method Setting:</b>"
-msgstr ""
+msgstr "<b>Giriş Yöntemi Ayarları:</b>"
 
 #: src/imconfigdialog.cpp:42
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "<b>Giriş Yöntemini Seç:</b>"
 #: layout/main.cpp:37
 #, kde-format
 msgid "A general keyboard layout viewer"
-msgstr ""
+msgstr "Genel bir klavye düzeni görüntüleyici"
 
 #: src/module.cpp:129
 #, kde-format
@@ -251,6 +251,10 @@ msgid ""
 "including candidate number, hotkey of previous page and next page. You may "
 "need go to configuration of corresponding input method to change them."
 msgstr ""
+"Burada listelenen seçenekler, genellikle aday numarası, önceki sayfanın ve "
+"sonraki sayfanın kısayol tuşu dahil olmak üzere belirli bir giriş yöntemiyle "
+"geçersiz kılınabilir. Bunları değiştirmek için ilgili giriş yönteminin "
+"yapılandırmasına gitmeniz gerekebilir."
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
@@ -345,7 +349,7 @@ msgstr "Adlarınız"
 #: layout/main.cpp:42
 #, kde-format
 msgid "group"
-msgstr ""
+msgstr "grup"
 
 #: src/kcm_fcitx.desktop.in:14
 msgid "keyboard,input,im,fcitx"
@@ -364,6 +368,3 @@ msgstr "düzeni"
 #, kde-format
 msgid "variant"
 msgstr "türü"
-
-#~ msgid "Get New &Skin..."
-#~ msgstr "Yeni &Tema Al..."
