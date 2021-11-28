@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2021-11-18 20:07+0000\n"
-"PO-Revision-Date: 2021-11-02 09:04+0000\n"
+"POT-Creation-Date: 2021-11-28 20:26+0000\n"
+"PO-Revision-Date: 2021-11-27 23:25+0000\n"
 "Last-Translator: abc Def <hdogan1974@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/fcitx/fcitx/language/tr/)\n"
 "Language: tr\n"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
-msgstr "Klavye serilimini görüntüler"
+msgstr "Klavye serilimini görüntüle"
 
 #: src/subconfigwidget.cpp:233
 #, kde-format
