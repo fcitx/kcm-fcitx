@@ -4,17 +4,17 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# Jung Hee Lee <daemul72@gmail.com>, 2021
-# Jung Hee Lee <daemul72@gmail.com>, 2020
-# Jung Hee Lee <daemul72@gmail.com>, 2021
-# Jung Hee Lee <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2021
+# JungHee Lee <daemul72@gmail.com>, 2020
+# JungHee Lee <daemul72@gmail.com>, 2021
+# JungHee Lee <daemul72@gmail.com>, 2020,2022
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2021-06-05 20:27+0000\n"
-"PO-Revision-Date: 2021-06-05 06:07+0000\n"
-"Last-Translator: Jung Hee Lee <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2022-03-01 20:28+0000\n"
+"PO-Revision-Date: 2022-03-01 15:06+0000\n"
+"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "일반 키보드 자판 보기도구"
 #: src/module.cpp:129
 #, kde-format
 msgid "Addon Config"
-msgstr "애드온 설정"
+msgstr "애드온 구성"
 
 #: src/module.cpp:121
 #, kde-format
@@ -166,7 +166,7 @@ msgstr "기본값"
 #: src/module.cpp:83
 #, kde-format
 msgid "Fcitx Configuration Module"
-msgstr "Fcitx 환경설정 모듈"
+msgstr "Fcitx 구성 모듈"
 
 #: src/skinpage.cpp:217
 #, kde-format
@@ -183,7 +183,7 @@ msgstr "폼"
 #: src/module.cpp:113
 #, kde-format
 msgid "Global Config"
-msgstr "전역 설정"
+msgstr "전역 구성"
 
 #: src/module.cpp:104 src/kcm_fcitx.desktop.in:11
 #, kde-format
@@ -237,7 +237,7 @@ msgstr "다중언어"
 #: src/uipage.cpp:45
 #, kde-format
 msgid "No configuration options for %1."
-msgstr "%1 에 대한 환경설정이 없음"
+msgstr "%1에 대한 구성 옵션들이 없습니다."
 
 #. i18n: file: src/impage.ui:115
 #. i18n: ectx: property (text), widget (QCheckBox, onlyCurrentLanguageCheckBox)
@@ -253,7 +253,7 @@ msgid ""
 msgstr ""
 "표시된 옵션은 입력기에 의해 덮어씌워질 수 있습니다. 대체로 후보 개수, 이전 혹"
 "은 다음 페이지의 단축기 등이 해당됩니다. 그냥 당연한 거 같아요.해당 입력기의 "
-"환경설정 페이지에서 변경 가능합니다."
+"구성 페이지에서 변경 가능합니다."
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
@@ -315,7 +315,8 @@ msgid ""
 "User config doesn't exisits, do you want to open system file or copy system "
 "file to user file?"
 msgstr ""
-"사용자 설정이 없습니다. 시스템 파일을 열거나 사용자 파일로 복사하겠습니까?"
+"사용자 구성이 존재하지 않습니다. 시스템 파일을 열거나 시스템 파일을 사용자 파"
+"일로 복사하시겠습니까?"
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
