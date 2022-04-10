@@ -4,17 +4,18 @@
 #
 # Translators:
 # Bon Keun Seo <scobyseo@gmail.com>, 2017
-# JungHee Lee <daemul72@gmail.com>, 2021
-# JungHee Lee <daemul72@gmail.com>, 2020
-# JungHee Lee <daemul72@gmail.com>, 2021
-# JungHee Lee <daemul72@gmail.com>, 2020,2022
+# Junghee Lee <daemul72@gmail.com>, 2021
+# Junghee Lee <daemul72@gmail.com>, 2020
+# Junghee Lee <daemul72@gmail.com>, 2022
+# Junghee Lee <daemul72@gmail.com>, 2021
+# Junghee Lee <daemul72@gmail.com>, 2020,2022
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-03-01 20:28+0000\n"
-"PO-Revision-Date: 2022-03-01 15:06+0000\n"
-"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
+"POT-Creation-Date: 2022-04-10 20:28+0000\n"
+"PO-Revision-Date: 2011-11-16 06:53+0000\n"
+"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2022\n"
 "Language-Team: Korean (http://www.transifex.com/fcitx/fcitx/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -232,7 +233,7 @@ msgstr "스킨 관리"
 #: src/impage.cpp:53
 #, kde-format
 msgid "Multilingual"
-msgstr "다중언어"
+msgstr "다국어"
 
 #: src/uipage.cpp:45
 #, kde-format
@@ -278,7 +279,7 @@ msgstr "입력기 검색"
 #. i18n: file: src/fontbutton.ui:51
 #. i18n: ectx: property (text), widget (QPushButton, fontSelectButton)
 msgid "Select &Font..."
-msgstr "글꼴 선택(&F)"
+msgstr "글꼴 선택...(&F)"
 
 #. i18n: file: src/impage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, defaultLayoutButton)
@@ -352,11 +353,11 @@ msgstr "그룹"
 
 #: src/kcm_fcitx.desktop.in:14
 msgid "keyboard,input,im,fcitx"
-msgstr "keyboard,input,im,fcitx"
+msgstr "keyboard,input,im,fcitx키보드;입력;입력기"
 
 #: layout/kbd-layout-viewer.desktop.in:9
 msgid "keyboard;input;im"
-msgstr "keyboard;input;im"
+msgstr "keyboard;input;im;키보드;입력;입력기"
 
 #: layout/main.cpp:45
 #, kde-format
