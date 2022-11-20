@@ -12,14 +12,15 @@
 # PHLin <Cypressyew@gmail.com>, 2017
 # csslayer <wengxt@gmail.com>, 2014
 # csslayer <wengxt@gmail.com>, 2012-2013
+# 如月飛羽 <flyingfeather1501@gmail.com>, 2022
 # 黃柏諺 <s8321414@gmail.com>, 2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-06-02 20:30+0000\n"
+"POT-Creation-Date: 2022-11-20 06:36+0000\n"
 "PO-Revision-Date: 2011-11-16 06:53+0000\n"
-"Last-Translator: csslayer <wengxt@gmail.com>, 2014\n"
+"Last-Translator: 如月飛羽 <flyingfeather1501@gmail.com>, 2022\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -72,7 +73,7 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">注意：</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">需要經典介面來使用皮膚功"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">需要經典介面來使用佈景功"
 "能。</p></body></html>"
 
 #. i18n: file: src/impage.ui:292
@@ -128,12 +129,12 @@ msgstr "可用輸入法："
 #: src/erroroverlay.cpp:43
 #, kde-format
 msgid "Cannot connect to Fcitx by DBus, is Fcitx running?"
-msgstr "無法通過 DBus 連接到 Fcitx，Fcitx 是否正在運行？"
+msgstr "無法透過 DBus 連接到 Fcitx，Fcitx 是否正在運行？"
 
 #: src/uipage.cpp:16
 #, kde-format
 msgid "Cannot load currently used user interface info"
-msgstr "無法加載當前用戶介面信息"
+msgstr "無法載入目前使用的使用者介面資訊"
 
 #: src/module.cpp:85
 #, kde-format
@@ -147,12 +148,12 @@ msgstr "設定輸入法"
 #: src/subconfigwidget.cpp:232
 #, kde-format
 msgid "Copy"
-msgstr "拷貝"
+msgstr "複製"
 
 #: src/subconfigwidget.cpp:245
 #, kde-format
 msgid "Copy failed"
-msgstr "拷貝失败"
+msgstr "複製失敗"
 
 #: src/module.cpp:87
 #, kde-format
@@ -224,7 +225,7 @@ msgstr "鍵盤配置 <variant>"
 #. i18n: file: src/impage.ui:38
 #. i18n: ectx: property (toolTip), widget (QPushButton, defaultLayoutButton)
 msgid "Keyboard layout to use when no input method active"
-msgstr "無活動輸入法時使用的鍵盤佈局"
+msgstr "無作用中輸入法時使用的鍵盤佈局"
 
 #: layout/kbd-layout-viewer.desktop.in:6
 msgid "Keyboard layout viewer"
@@ -258,7 +259,7 @@ msgid ""
 "need go to configuration of corresponding input method to change them."
 msgstr ""
 "在此列出的選項可能被特定的輸入法覆寫，通常包括候選字數，上一頁和下一頁翻頁"
-"鍵。您可能需要對對應輸入法進行設定來修改這些選項。"
+"鍵。您可能需要到對應輸入法的設定來修改這些選項。"
 
 #: src/configwidget.cpp:560 src/impage.cpp:69
 #, kde-format
@@ -293,7 +294,7 @@ msgstr "選擇預設鍵盤佈局"
 #: src/addonselector.cpp:382 src/configwidget.cpp:606
 #, kde-format
 msgid "Show &Advance option"
-msgstr "顯示高級選項(&A)"
+msgstr "顯示進階選項(&A)"
 
 #: src/skinpage.cpp:387
 #, kde-format
@@ -306,8 +307,8 @@ msgid ""
 "The first input method will be inactive state. Usually you need to put "
 "<b>Keyboard</b> or <b>Keyboard - <i>layout name</i></b> in the first place."
 msgstr ""
-"第一個輸入法將作爲非激活狀態。通常您需要將<b>鍵盤<b>或者<b>鍵盤 - <i>佈局名稱"
-"</i></b>放到第一個。"
+"第一個輸入法將作爲非作用中狀態。通常您需要將<b>鍵盤<b>或者<b>鍵盤 - <i>佈局名"
+"稱</i></b>放到第一個。"
 
 #: src/impage.cpp:50
 #, kde-format
@@ -320,7 +321,8 @@ msgid ""
 "User config doesn't exisits, do you want to open system file or copy system "
 "file to user file?"
 msgstr ""
-"用戶的設定不存在，您想要打開系統的設定還是將系統的設定文件拷貝到用戶文件？"
+"使用者設定不存在，您想要開啟系統設定文件，還是要將系統設定文件複製到使用者設"
+"定文件？"
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
