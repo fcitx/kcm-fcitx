@@ -8,6 +8,7 @@
 # csslayer <wengxt@gmail.com>, 2014
 # PHLin <Cypressyew@gmail.com>, 2017
 # Gerald Du <frozenmouse@gmail.com>, 2015
+# Haowei Hsu, 2023
 # 黃柏諺 <s8321414@gmail.com>, 2015,2017
 # PHLin <Cypressyew@gmail.com>, 2017
 # csslayer <wengxt@gmail.com>, 2014
@@ -18,10 +19,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2022-11-20 06:36+0000\n"
+"POT-Creation-Date: 2023-08-07 20:26+0000\n"
 "PO-Revision-Date: 2011-11-16 06:53+0000\n"
-"Last-Translator: 如月飛羽 <flyingfeather1501@gmail.com>, 2022\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/fcitx/fcitx/"
+"Last-Translator: Haowei Hsu, 2023\n"
+"Language-Team: Chinese (Taiwan) (http://app.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +90,7 @@ msgstr "<b>輸入法設定：</b>"
 #: src/imconfigdialog.cpp:42
 #, kde-format
 msgid "<b>Keyboard Layout:</b>"
-msgstr "<b>鍵盤佈局：</b>"
+msgstr "<b>鍵盤配置：</b>"
 
 #: src/configwidget.cpp:450
 #, kde-format
@@ -104,7 +105,7 @@ msgstr "<b>選擇輸入法：</b>"
 #: layout/main.cpp:37
 #, kde-format
 msgid "A general keyboard layout viewer"
-msgstr "一般鍵盤佈局檢視器"
+msgstr "一般鍵盤配置檢視器"
 
 #: src/module.cpp:129
 #, kde-format
@@ -210,7 +211,7 @@ msgstr "鍵盤 <layout>"
 #: layout/main.cpp:74
 #, kde-format
 msgid "Keyboard Layout viewer"
-msgstr "鍵盤佈局檢視器"
+msgstr "鍵盤配置檢視器"
 
 #: layout/main.cpp:41
 #, kde-format
@@ -229,7 +230,7 @@ msgstr "無作用中輸入法時使用的鍵盤佈局"
 
 #: layout/kbd-layout-viewer.desktop.in:6
 msgid "Keyboard layout viewer"
-msgstr "鍵盤佈局檢視器"
+msgstr "鍵盤配置檢視器"
 
 #: src/module.cpp:178
 #, kde-format
@@ -289,7 +290,7 @@ msgstr "選擇字體(&F)"
 #. i18n: file: src/impage.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, defaultLayoutButton)
 msgid "Select default keyboard layout"
-msgstr "選擇預設鍵盤佈局"
+msgstr "選擇預設鍵盤配置"
 
 #: src/addonselector.cpp:382 src/configwidget.cpp:606
 #, kde-format
@@ -307,7 +308,7 @@ msgid ""
 "The first input method will be inactive state. Usually you need to put "
 "<b>Keyboard</b> or <b>Keyboard - <i>layout name</i></b> in the first place."
 msgstr ""
-"第一個輸入法將作爲非作用中狀態。通常您需要將<b>鍵盤<b>或者<b>鍵盤 - <i>佈局名"
+"第一個輸入法將作爲非作用中狀態。通常您需要將<b>鍵盤<b>或者<b>鍵盤 - <i>配置名"
 "稱</i></b>放到第一個。"
 
 #: src/impage.cpp:50
@@ -326,7 +327,7 @@ msgstr ""
 
 #: layout/kbd-layout-viewer.desktop.in:7
 msgid "View keyboard layout"
-msgstr "檢視鍵盤佈局"
+msgstr "檢視鍵盤配置"
 
 #: src/subconfigwidget.cpp:233
 #, kde-format
