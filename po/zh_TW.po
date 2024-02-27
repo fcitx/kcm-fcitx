@@ -8,10 +8,10 @@
 # csslayer <wengxt@gmail.com>, 2014
 # PHLin <Cypressyew@gmail.com>, 2017
 # Gerald Du <frozenmouse@gmail.com>, 2015
-# Haowei Hsu, 2023
+# Haowei Hsu <hwhsu1231@gmail.com>, 2023
 # 黃柏諺 <s8321414@gmail.com>, 2015,2017
 # PHLin <Cypressyew@gmail.com>, 2017
-# csslayer <wengxt@gmail.com>, 2014
+# csslayer <wengxt@gmail.com>, 2014,2024
 # csslayer <wengxt@gmail.com>, 2012-2013
 # 如月飛羽 <flyingfeather1501@gmail.com>, 2022
 # 黃柏諺 <s8321414@gmail.com>, 2015,2017
@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fcitx\n"
 "Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
-"POT-Creation-Date: 2023-08-07 20:26+0000\n"
+"POT-Creation-Date: 2024-02-27 20:35+0000\n"
 "PO-Revision-Date: 2011-11-16 06:53+0000\n"
-"Last-Translator: Haowei Hsu, 2023\n"
+"Last-Translator: csslayer <wengxt@gmail.com>, 2014,2024\n"
 "Language-Team: Chinese (Taiwan) (http://app.transifex.com/fcitx/fcitx/"
 "language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -308,8 +308,8 @@ msgid ""
 "The first input method will be inactive state. Usually you need to put "
 "<b>Keyboard</b> or <b>Keyboard - <i>layout name</i></b> in the first place."
 msgstr ""
-"第一個輸入法將作爲非作用中狀態。通常您需要將<b>鍵盤<b>或者<b>鍵盤 - <i>配置名"
-"稱</i></b>放到第一個。"
+"第一個輸入法將作爲非作用中狀態。通常您需要將<b>鍵盤</b>或者<b>鍵盤 - <i>配置"
+"名稱</i></b>放到第一個。"
 
 #: src/impage.cpp:50
 #, kde-format
